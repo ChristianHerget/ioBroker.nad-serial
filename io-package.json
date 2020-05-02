@@ -1,0 +1,79 @@
+{
+    "common": {
+        "name": "nad-serial",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "NAD Serial Port",
+        "titleLang": {
+            "en": "NAD Serial Port",
+            "de": "NAD Serial Port",
+            "ru": "NAD последовательный порт",
+            "pt": "Porta serial do NAD",
+            "nl": "NAD seriële poort",
+            "fr": "Port série NAD",
+            "it": "Porta seriale NAD",
+            "es": "Puerto serie NAD",
+            "pl": "Port szeregowy NAD",
+            "zh-cn": "NAD串口"
+        },
+        "desc": {
+            "en": "nad-serial",
+            "de": "nad-serial",
+            "ru": "над-последовательный",
+            "pt": "nad-serial",
+            "nl": "nad-serieel",
+            "fr": "nad-serial",
+            "it": "nad-seriale",
+            "es": "nad-serial",
+            "pl": "nad-serial",
+            "zh-cn": "nad-serial"
+        },
+        "authors": [
+            "Christian Herget <ch.herget@gmail.com>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "nad-serial.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ChristianHerget/ioBroker.nad-serial/master/admin/nad-serial.png",
+        "readme": "https://github.com/ChristianHerget/ioBroker.nad-serial/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "multimedia",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "push",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
